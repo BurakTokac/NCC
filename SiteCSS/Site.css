@@ -1,0 +1,12 @@
+﻿body {
+}
+
+.bg-NCCBlue {
+    background-color: #000f3a !important;
+    padding: 10px 0;
+}
+
+/* optional: make nav links white if you remove inline styles later */
+.bg-NCCBlue .nav-link {
+    color: white !important;
+}

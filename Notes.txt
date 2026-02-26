@@ -1,1 +1,5 @@
 ﻿Notes Page
+
+***
+
+- Finish adding inner page content.
