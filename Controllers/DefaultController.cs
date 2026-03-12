@@ -28,5 +28,34 @@ namespace NCC.Controllers
         {
             return View();
         }
+
+        [HttpGet]
+        public ActionResult StudentRegistration()
+        {
+
+            return View();
+        }
+
+        [HttpPost]
+        public ActionResult StudentRegistration(Student student)
+        {
+            if (ModelState.IsValid)
+            {
+                
+                return View("RegisterSuccess", student);
+            }
+            else
+            {
+                return View();
+            }
+        }
+
+        [HttpGet]
+        public ActionResult RegisterSuccess()
+        {
+
+            return View();
+        }
+
     }
 }

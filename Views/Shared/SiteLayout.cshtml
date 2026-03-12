@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width" />
     <title>@ViewBag.Title</title>
     <link href="~/Content/bootstrap.css" rel="stylesheet" />
-    <link href="~/SiteCSS/Site.css" rel="stylesheet" />
+    <link href="~/Site Style/Site.css" rel="stylesheet" />
     <script src="~/Scripts/jquery-3.0.0.js"></script>
     <script src="~/Scripts/popper.js"></script>
     <script src="~/Scripts/bootstrap.js"></script>
@@ -29,6 +29,9 @@
                     <a class="nav-link text-uppercase" href="~/Default/Contact">Contact</a>
                 </li>
                 <li class="nav-item">
+                    <a class="nav-link text-uppercase" href="~/Default/StudentRegistration">Register</a>
+                </li>
+                <li class="nav-item">
                     <a class="nav-link text-uppercase" href="~/Default/FAQ">FAQ</a>
                 </li>
             </ul>
@@ -39,12 +42,16 @@
         <article style="padding-top: 20px;">
             @RenderBody()
         </article>
-
-        <footer style="margin-top: 20px;">
-            <div class="p-3" style="background-color: #EC7E22; color: white;">
-                <strong>Page and Graphics By:</strong> Nassau Community College
-            </div>
-        </footer>
     </div>
+
+    <footer style="margin-top: 20px;">
+        <div class="w-100 bg-NCCOrange text-white">
+            <div class="container">
+                <div class="p-3 text-center">
+                    <strong>Page and Graphics By:</strong> Nassau Community College
+                </div>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
